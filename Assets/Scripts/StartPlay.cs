@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class PlayGame : MonoBehaviour
 {
-    public void ChageScenes(int number)
+    public void PlayGamee()
     {
         SceneManager.LoadScene(1);
     }
