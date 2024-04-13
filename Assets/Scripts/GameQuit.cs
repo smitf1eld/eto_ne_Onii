@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class GameQuit : MonoBehaviour
 {
-    public void ChageScenes(int number)
+    public void ExitGame()
     {
-        SceneManager.LoadScene(1);
+        Application.Quit();
     }
 }
