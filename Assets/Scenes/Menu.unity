@@ -2044,7 +2044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 530050935}
   clip: {fileID: 8300000, guid: 27397b1d55a99d24bb68f9ab6f613241, type: 3}
-  audio: {fileID: 385807001}
+  newAudio: {fileID: 385807001}
 --- !u!1 &1896355854
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,14 +9,14 @@ public class AudioContorller : MonoBehaviour
     public Slider slider;
 
     public AudioClip clip;
-    public AudioSource audio;
+    public AudioSource newAudio;
     void Start()
     {
-        audio.volume = 100;
+        newAudio.volume = 100;
     }
 
-    void Update()
+    void Update() 
     {
-        audio.volume = slider.value;
+        newAudio.volume = slider.value;
     }
 }
