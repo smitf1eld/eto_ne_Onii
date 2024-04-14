@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu Sa1shan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu Sa1shan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartPlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartPlay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
@@ -27,6 +31,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -92,6 +100,35 @@
       <workItem from="1713031459653" duration="60000" />
       <workItem from="1713031760792" duration="155000" />
       <workItem from="1713032073160" duration="46000" />
+      <workItem from="1713111308491" duration="149000" />
+      <workItem from="1713111492683" duration="522000" />
+      <workItem from="1713112688317" duration="240000" />
+      <workItem from="1713114655983" duration="13000" />
+      <workItem from="1713114746996" duration="40000" />
+      <workItem from="1713114886007" duration="292000" />
+      <workItem from="1713115239227" duration="55000" />
+      <workItem from="1713115333579" duration="25000" />
+      <workItem from="1713115462228" duration="86000" />
+      <workItem from="1713115620647" duration="25000" />
+      <workItem from="1713115742409" duration="158000" />
+      <workItem from="1713115937110" duration="13000" />
+      <workItem from="1713116123387" duration="66000" />
+      <workItem from="1713116372129" duration="63000" />
+      <workItem from="1713116753048" duration="54000" />
+      <workItem from="1713116827433" duration="14000" />
+      <workItem from="1713117208794" duration="3000" />
+      <workItem from="1713117222910" duration="20000" />
+      <workItem from="1713117316074" duration="25000" />
+      <workItem from="1713120241381" duration="38000" />
+      <workItem from="1713120303175" duration="48000" />
+      <workItem from="1713120379063" duration="125000" />
+      <workItem from="1713120520567" duration="17000" />
+      <workItem from="1713120696886" duration="1000" />
+      <workItem from="1713120827491" duration="39000" />
+      <workItem from="1713120942854" duration="186000" />
+      <workItem from="1713121908055" duration="165000" />
+      <workItem from="1713122139682" duration="2347000" />
+      <workItem from="1713126947433" duration="35000" />
     </task>
     <servers />
   </component>

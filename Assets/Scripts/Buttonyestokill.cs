@@ -2,13 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PlayGame : MonoBehaviour
+public class Buttonyestokill : MonoBehaviour
 {
-    public void PlayGamee()
+    
+    public int scenenumber;
+    public void transition()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(scenenumber);
     }
 
     private void Start()
@@ -16,4 +20,6 @@ public class PlayGame : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+    
+    
 }
