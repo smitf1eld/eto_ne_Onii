@@ -7,9 +7,9 @@
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartPlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartPlay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/мусор/play_14730316.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/мусор/play_14730316.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -129,6 +130,8 @@
       <workItem from="1713121908055" duration="165000" />
       <workItem from="1713122139682" duration="2347000" />
       <workItem from="1713126947433" duration="35000" />
+      <workItem from="1713185607254" duration="4348000" />
+      <workItem from="1713190050864" duration="3761000" />
     </task>
     <servers />
   </component>
