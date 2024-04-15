@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger_screamer : MonoBehaviour
+public class chuvirla : MonoBehaviour
 {
     public AudioClip soundToPlay;
     private AudioSource audioSource;
@@ -16,7 +16,7 @@ public class Trigger_screamer : MonoBehaviour
             {
 
                 hasEntered = true;
-                
+
             }
             else
             {
@@ -25,13 +25,8 @@ public class Trigger_screamer : MonoBehaviour
                 {
                     audioSource.PlayOneShot(soundToPlay);
                     transform.Translate(Vector3.up * 5);
-                    for (int i = 2; i < 6; i++)
-                    {
-                        transform.Translate(Vector3.forward * i);
-                        yield return new WaitForSeconds(1);
-                    }
-                    yield return new WaitForSeconds(1);
-                    transform.Translate(Vector3.down * 5);
+                    yield return new WaitForSeconds(3);
+                    transform.Translate(Vector3.up * 20);
                 }
 
             }
