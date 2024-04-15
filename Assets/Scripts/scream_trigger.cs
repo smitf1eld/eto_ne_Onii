@@ -4,14 +4,34 @@ using UnityEngine;
 
 public class Trigger_screamer : MonoBehaviour
 {
-    public GameObject screamer;
-    
-    private void OnTrigger(Collider other)
+    private bool hasEntered = false;
+    private void OnTriggerEnter(Collider other)
+
     {
-        if (this.CompareTag("screamer_trigger") && other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            screamer.SetActive(true);
-            
+            if (!hasEntered)
+            {
+
+                hasEntered = true;
+                
+            }
+            else
+            {
+                StartCoroutine(LiftCoroutine());
+                IEnumerator LiftCoroutine()
+                {
+                    transform.Translate(Vector3.up * 5);
+                    for (int i = 2; i < 6; i++)
+                    {
+                        transform.Translate(Vector3.forward * i);
+                        yield return new WaitForSeconds(1);
+                    }
+                    yield return new WaitForSeconds(1);
+                    transform.Translate(Vector3.down * 5);
+                }
+
+            }
         }
     }
 }
