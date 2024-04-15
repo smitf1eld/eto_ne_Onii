@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Записки.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Записки.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/screamertudasuda.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/screamertudasuda.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Untitled9_20240415145409.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Untitled9_20240415145409.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/audio/gdfgdgf.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/audio/gdfgdgf.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/мусор/japanese-traditional-blue-ocean-wave-seamless-pattern-with-transparent-background_947814-48364.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/мусор/japanese-traditional-blue-ocean-wave-seamless-pattern-with-transparent-background_947814-48364.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/362_20240415135106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/362_20240415135106.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/IMG_6820.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Кнопки/IMG_6820.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
   "keyToString": {
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,6 +142,7 @@
       <workItem from="1713185607254" duration="4348000" />
       <workItem from="1713190050864" duration="3761000" />
       <workItem from="1713194896568" duration="17000" />
+      <workItem from="1713195427918" duration="2136000" />
     </task>
     <servers />
   </component>
