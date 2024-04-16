@@ -2147,7 +2147,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 408172187}
         m_TargetAssemblyTypeName: PlayGame, Assembly-CSharp
-        m_MethodName: PlayGamee
+        m_MethodName: StartPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

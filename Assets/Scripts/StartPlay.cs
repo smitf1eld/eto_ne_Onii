@@ -11,6 +11,11 @@ public class PlayGame : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void StartPlay()
+    {
+        SceneManager.LoadScene(4);
+    }
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;

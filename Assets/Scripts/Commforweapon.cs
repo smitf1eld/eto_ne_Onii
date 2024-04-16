@@ -9,7 +9,6 @@ using TMPro;
 public class Commforweapon : MonoBehaviour
 {
     public Canvas notice;
-    public int scenenumbers;
     public int clikcount; 
     public Canvas Canvas;
     private bool inradius;
@@ -30,13 +29,17 @@ public class Commforweapon : MonoBehaviour
     {
         notice.gameObject.SetActive(false);
         inradius = false;
+        Canvas.gameObject.SetActive(false);
     }
+
+    
 
     private void Update()
     {
         if (inradius)
         {
             notice.gameObject.SetActive(true);
+            
         
             if (Input.GetKeyDown(KeyCode.E))
             { 
@@ -44,7 +47,9 @@ public class Commforweapon : MonoBehaviour
                 clikcount++; 
                 if (clikcount == 2) 
                 {
-                    SceneManager.LoadScene(scenenumbers);
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    SceneManager.LoadScene(2);
                 }
             }
 

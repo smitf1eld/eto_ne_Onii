@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Trigger_screamer : MonoBehaviour
 {
-    public AudioClip soundToPlay;
-    private AudioSource audioSource;
     private bool hasEntered = false;
     private void OnTriggerEnter(Collider other)
 
@@ -23,14 +21,14 @@ public class Trigger_screamer : MonoBehaviour
                 StartCoroutine(LiftCoroutine());
                 IEnumerator LiftCoroutine()
                 {
-                    audioSource.PlayOneShot(soundToPlay);
                     transform.Translate(Vector3.up * 5);
-                    for (int i = 2; i < 6; i++)
+                    yield return new WaitForSeconds(3);
+                    for (int i = 40; i < 41; i++)
                     {
                         transform.Translate(Vector3.forward * i);
-                        yield return new WaitForSeconds(1);
+                        yield return new WaitForSeconds(0);
                     }
-                    yield return new WaitForSeconds(1);
+                    yield return new WaitForSeconds((float)0.4);
                     transform.Translate(Vector3.down * 5);
                 }
 
