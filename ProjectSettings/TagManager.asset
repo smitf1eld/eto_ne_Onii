@@ -8,6 +8,10 @@ TagManager:
   - trigger
   - screamer_trigger
   - OnTrigger1
+  - key
+  - Door
+  - Item
+  - Key
   layers:
   - Default
   - TransparentFX

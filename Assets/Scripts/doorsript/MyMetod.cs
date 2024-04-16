@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
+using UnityEditor;
 using UnityEngine;
 
-public class Dooropen : MonoBehaviour
+public class MyMetod : MonoBehaviour
 {
-    public GameObject door;
+    public GameObject key;
     private bool inradius;
+    public Canvas notice;
+    
     void Start()
     {
-        transform.Rotate(-90f, 0f, 90f);
-       
+        key.gameObject.SetActive(true);
+        notice.gameObject.SetActive(false);
     }
-
     
     private void OnTriggerEnter(Collider other)
     {
@@ -20,18 +23,19 @@ public class Dooropen : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        
+        notice.gameObject.SetActive(false);
         inradius = false;
     }
-
-    private void Update()
+    
+    void Update()
     {
         if (inradius)
         {
+            notice.gameObject.SetActive(true);
+
             if (Input.GetKeyDown(KeyCode.E))
-            { 
-                transform.Rotate(-90f, 90f, 90f);
-                
+            {
+                key.gameObject.SetActive(false);
             }
         }
     }
