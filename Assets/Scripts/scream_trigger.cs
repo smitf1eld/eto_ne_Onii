@@ -31,7 +31,6 @@ public class Trigger_screamer : MonoBehaviour
                     yield return new WaitForSeconds((float)0.4);
                     transform.Translate(Vector3.down * 5);
                 }
-
             }
         }
     }
