@@ -9,12 +9,15 @@ public class PauseMenu : MonoBehaviour
 {
     public bool pauseGame;
     public GameObject pauseGameMenu;
+    
 
     public void Resume()
     {
         pauseGameMenu.SetActive(false);
         Time.timeScale = 1f;
         pauseGame = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = false;
     }
 
     public void Pause()
@@ -25,8 +28,11 @@ public class PauseMenu : MonoBehaviour
     }
     private void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             if (pauseGame)
             {
                 Resume();
@@ -36,6 +42,7 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
+        
     }
 
     public void GoToMenu()
