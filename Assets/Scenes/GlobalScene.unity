@@ -1186,7 +1186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -439, y: 281}
+  m_AnchoredPosition: {x: -488, y: 296}
   m_SizeDelta: {x: 273.3771, y: 54.4472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155500119
@@ -5011,8 +5011,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b6a483d34229f47805ecff416ede03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteTextstr: 'Dear friend, lately you have become very withdrawn into yourself.
-    Maybe we can meet soon. '
+  noteTextstr: "\u201CDear Marill, lately you have begun to withdraw from your friends
+    and loved ones, causes me serious concern. There are rumors in the city that
+    you have completely stopped going out to buy goods and all your orders are left
+    to the cries of young  maids, whom for some uknown reason you change every week.
+    Please contact me as soon as possible, I know a good doctor in Leeds who  can
+    help you. Your friend. Marcus."
   notice: {fileID: 1816168474}
   noteUI: {fileID: 1031102052}
   text: {fileID: 1095984068}
@@ -5604,7 +5608,7 @@ RectTransform:
   m_GameObject: {fileID: 1031102052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.3840475, y: 6.887699, z: 6.7197065}
+  m_LocalScale: {x: 11.162851, y: 6.887699, z: 6.7197065}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1095984067}
@@ -5613,8 +5617,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: 0.0000038147}
-  m_SizeDelta: {x: 58.2795, y: 101.1967}
+  m_AnchoredPosition: {x: 0.000029564, y: -0.0000019073}
+  m_SizeDelta: {x: 68.1758, y: 122.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031102054
 MonoBehaviour:
@@ -5910,6 +5914,100 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1066565766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1066565768}
+  - component: {fileID: 1066565767}
+  m_Layer: 0
+  m_Name: Point Light (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1066565767
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066565766}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.6679705, b: 0.2688679, a: 1}
+  m_Intensity: 1
+  m_Range: 3
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1066565768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066565766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -119.968, y: 10.98, z: -133.647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070042051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6152,15 +6250,15 @@ RectTransform:
   m_GameObject: {fileID: 1095984066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.98231, y: 0.98231, z: 0.98231}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1031102053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9, y: -1.9}
-  m_SizeDelta: {x: 28.82466, y: 85.63448}
+  m_AnchoredPosition: {x: -0.41892, y: -1.14795}
+  m_SizeDelta: {x: 37.63985, y: 106.7244}
   m_Pivot: {x: 0.49999982, y: 0.5}
 --- !u!114 &1095984068
 MonoBehaviour:
@@ -6209,8 +6307,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.5
-  m_fontSizeBase: 2.5
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7720,9 +7818,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b6a483d34229f47805ecff416ede03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteTextstr: Mr. Marill hasn't been himself lately. He walks around looking sullen
-    and giving me scary looks. After meeting with a friend, he told me to come to
-    the office. I'm scared.
+  noteTextstr: "Every day the honorable Lord Marill behaves more and more strangely.
+    He  is shouting phrases in a language I don\u2019t understand, and casts a sidelong
+    glance every time I do something wrong. He constantly says to me to do my work
+    properly . And before going to bed he mutters about the fact that \u201Cthe keys
+    should always be with him\u201D"
   notice: {fileID: 1816168474}
   noteUI: {fileID: 1031102052}
   text: {fileID: 1095984068}
@@ -8227,6 +8327,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299031235}
   m_Mesh: {fileID: 7820442046877017174, guid: 0c7f6f631ff884b63a77e5db83669cd6, type: 3}
+--- !u!1 &1309894862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309894864}
+  - component: {fileID: 1309894863}
+  m_Layer: 0
+  m_Name: Point Light (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1309894863
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309894862}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.8850967, b: 0.5990566, a: 1}
+  m_Intensity: 1
+  m_Range: 5
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1309894864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309894862}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -124.649, y: 12.946, z: -134.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353311306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -8500,8 +8694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44.3, y: 41.3}
-  m_SizeDelta: {x: 26.93723, y: 9.20017}
+  m_AnchoredPosition: {x: -48.982723, y: 44.9601}
+  m_SizeDelta: {x: 34.77178, y: 8.08639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376119767
 MonoBehaviour:
@@ -8523,7 +8717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press ESC
+  m_text: Space to close
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8e65f6d9e662a8e4687afb660ed48f12, type: 2}
   m_sharedMaterial: {fileID: 8559783382910407880, guid: 8e65f6d9e662a8e4687afb660ed48f12, type: 2}
@@ -8550,8 +8744,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8586,10 +8780,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.000003829978, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.13744438, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1376119768
@@ -9354,7 +9548,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.89766103, b: 0.7122642, a: 1}
+  m_Color: {r: 0.9056604, g: 0.7185124, b: 0.38020647, a: 1}
   m_Intensity: 1
   m_Range: 8.666328
   m_SpotAngle: 30
@@ -9414,7 +9608,7 @@ Transform:
   m_GameObject: {fileID: 1460249068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -122.04954, y: 14.27, z: -144.51332}
+  m_LocalPosition: {x: -122.04954, y: 13.11, z: -144.51332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9522,9 +9716,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b6a483d34229f47805ecff416ede03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteTextstr: Dear Pastor, something strange is happening to my husband, please
-    see what is wrong with him... Oh God, I heard screams. Looks like he went to
-    the basement.
+  noteTextstr: Pastor, something strange is happening to my husband.He stops communicating,
+    hardly eats, and spends all his time in his office. Reading a strange book  of
+    unknown origin. When I tried to take it, he got very angry and tore it out of
+    my hands. He also forbid me to pray in the  morning.  I'm very scared, I have
+    to protect Gregory from all this. In the morning I will send him to visit his
+    parents. I hope God will have mercy on us.
   notice: {fileID: 1816168474}
   noteUI: {fileID: 1031102052}
   text: {fileID: 1095984068}
@@ -13652,6 +13849,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 236e4480aea2f479894b8d543ae47f24, type: 3}
   m_PrefabInstance: {fileID: 1847592813}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1867899454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867899458}
+  - component: {fileID: 1867899457}
+  - component: {fileID: 1867899456}
+  - component: {fileID: 1867899455}
+  m_Layer: 0
+  m_Name: "\u0437\u0430\u043F\u0438\u0441\u043A\u04301 (3)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1867899455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867899454}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 0.02021958, y: 0.014123152, z: 0.0032767386}
+  m_Center: {x: 0.00010979641, y: -0.00007151419, z: 0.0002794679}
+--- !u!23 &1867899456
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867899454}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -23141312827591638, guid: 0c7f6f631ff884b63a77e5db83669cd6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1867899457
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867899454}
+  m_Mesh: {fileID: -8871257876911294354, guid: 0c7f6f631ff884b63a77e5db83669cd6, type: 3}
+--- !u!4 &1867899458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867899454}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.55730265, y: 0.4427003, z: 0.4568775, w: 0.5335664}
+  m_LocalPosition: {x: -120.401, y: 9.018, z: -133.498}
+  m_LocalScale: {x: 30.237091, y: 30.237091, z: 30.237091}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1919822540}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -92.24, y: 430.36, z: -351.339}
 --- !u!1 &1876637041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ae7151363b0d6b458c3238390fb2ca6, type: 3}
@@ -13875,6 +14178,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.020832798, z: 0.33746436}
   m_Center: {x: 2.2906378e-10, y: 0.0022684685, z: 0.03186413}
+--- !u!1 &1919822539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919822540}
+  - component: {fileID: 1919822544}
+  - component: {fileID: 1919822543}
+  - component: {fileID: 1919822542}
+  - component: {fileID: 1919822541}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1919822540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919822539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34944052, y: 0.3192343, z: 0.098007426}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1867899458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1919822541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919822539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33094937, y: 0.22018729, z: 0.50818986}
+  m_Center: {x: 0.002036699, y: -0.024650037, z: 0.24594213}
+--- !u!114 &1919822542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919822539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b6a483d34229f47805ecff416ede03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteTextstr: "\u201CDear Marill,  With all due respect to you, I try to ignore 
+    messages about strange activities committed by you at night time,. But even I,
+    the bearer of the Lord\u2019s word, sometimes have doubts. Therefore, as your
+    pastor, I ask you not to forget these words from the holy scripture \u201CFor
+    our Lord has commanded us to stand against the wiles of the devil,, l forces
+    of wickedness in high places.\u201D Be careful my child, dont bring the wrath
+    of god upon your family\" "
+  notice: {fileID: 1816168474}
+  noteUI: {fileID: 1031102052}
+  text: {fileID: 1095984068}
+--- !u!23 &1919822543
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919822539}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1919822544
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919822539}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1920448598
 GameObject:
   m_ObjectHideFlags: 0
@@ -15121,6 +15552,7 @@ SceneRoots:
   - {fileID: 300322056}
   - {fileID: 716179456}
   - {fileID: 2127431114}
+  - {fileID: 1867899458}
   - {fileID: 2102237099}
   - {fileID: 688852345}
   - {fileID: 146515624}
@@ -15156,3 +15588,5 @@ SceneRoots:
   - {fileID: 677194829}
   - {fileID: 1375830826}
   - {fileID: 1571604563}
+  - {fileID: 1066565768}
+  - {fileID: 1309894864}
