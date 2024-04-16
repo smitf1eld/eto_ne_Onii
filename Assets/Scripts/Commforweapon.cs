@@ -9,9 +9,10 @@ using TMPro;
 public class Commforweapon : MonoBehaviour
 {
     public Canvas notice;
-    public int clikcount; 
+    private int clikcount; 
     public Canvas Canvas;
     private bool inradius;
+    
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Commforweapon : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         inradius = true;
+        notice.gameObject.SetActive(true);
     }
 
     private void OnTriggerExit(Collider other)

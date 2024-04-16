@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 280}
+  m_AnchoredPosition: {x: 0, y: 413}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106718569
@@ -436,7 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 49}
+  m_AnchoredPosition: {x: -417, y: 182}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &436355211
@@ -983,7 +983,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360.44443, y: 42.05}
+  m_AnchoredPosition: {x: 360.44443, y: 175.05}
   m_SizeDelta: {x: 165.6793, y: 36.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &960097182
@@ -1066,12 +1066,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 823195776}
-  - {fileID: 1892617020}
   - {fileID: 106718568}
   - {fileID: 436355210}
   - {fileID: 1560511407}
-  - {fileID: 960097181}
   - {fileID: 1609193560}
+  - {fileID: 960097181}
+  - {fileID: 1892617020}
   m_Father: {fileID: 1298590895}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1588,7 +1588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217, y: -195}
+  m_AnchoredPosition: {x: -217, y: -51}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560511408
@@ -1722,7 +1722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225.83989, y: -385.57922}
+  m_AnchoredPosition: {x: 225.83989, y: -241.57922}
   m_SizeDelta: {x: 1443.154, y: 308.897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1609193561
@@ -1745,7 +1745,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Move:\t\t\tInteraction:\nW,A,S,D\t\t\tE, ESC\n\n\tSprint:\t\t\t\tZoom:\n\tSHIFT\t\t\t\tRMB\n\n\n"
+  m_text: "Move:\t\t\tInteraction:\n[W],[A],[S],[D]\t\tDoor: [E]\n\t\t\tSubjects:
+    [E]\n\t\t\tPause:[ESC]\n\tSprint:\t\t\t\tZoom:\n\t[SHIFT]\t\t\t\t[RMB]\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8e65f6d9e662a8e4687afb660ed48f12, type: 2}
   m_sharedMaterial: {fileID: 8559783382910407880, guid: 8e65f6d9e662a8e4687afb660ed48f12, type: 2}

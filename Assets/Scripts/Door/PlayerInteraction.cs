@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     public Camera Maincam;
     public float interactionDistance = 10f;
 
-    public GameObject interactionUI;
+    
     public TextMeshProUGUI interactionText;
     void Update()
     {
@@ -39,6 +39,6 @@ public class NewBehaviourScript : MonoBehaviour
             }
         }
         
-        interactionUI.SetActive(hitsomething);
+        
     }
 }

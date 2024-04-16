@@ -20,11 +20,11 @@ public class Door : MonoBehaviour, IInteractiable
     {
         if (isOpen)
         {
-            return "Press [E] to close the door";
+            return "[E]";
         }
         else
         {
-            return "Press [E] to open the door";
+            return " [E] ";
         }
     }
 
