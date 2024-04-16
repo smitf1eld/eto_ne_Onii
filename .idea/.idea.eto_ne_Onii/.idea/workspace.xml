@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Note.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Note.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/DoorIvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/DoorIvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/Interaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/Interaction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/KeyIvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/KeyIvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/MyMetod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/MyMetod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/Playerdoor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/Playerdoor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/dooropening.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/dooropening.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/open.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/doorsript/open.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/door.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/door.controller" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +37,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/doorsript/DoorIvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/doorsript/DoorScripttest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/doorsript/item.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -146,6 +167,10 @@
       <workItem from="1713224865774" duration="2934000" />
       <workItem from="1713228443296" duration="16000" />
       <workItem from="1713229061530" duration="553000" />
+      <workItem from="1713261833324" duration="6590000" />
+      <workItem from="1713273824103" duration="25000" />
+      <workItem from="1713273925540" duration="35000" />
+      <workItem from="1713274003033" duration="1247000" />
     </task>
     <servers />
   </component>
