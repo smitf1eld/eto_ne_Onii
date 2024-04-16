@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Note.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Note.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,7 @@
       <workItem from="1713215144154" duration="7721000" />
       <workItem from="1713224865774" duration="2934000" />
       <workItem from="1713228443296" duration="16000" />
+      <workItem from="1713229061530" duration="553000" />
     </task>
     <servers />
   </component>
@@ -154,6 +154,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
