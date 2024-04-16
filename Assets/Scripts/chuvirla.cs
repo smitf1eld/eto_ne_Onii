@@ -21,7 +21,7 @@ public class chuvirla : MonoBehaviour
                 IEnumerator LiftCoroutine()
                 {
                     transform.Translate(Vector3.up * 5);
-                    yield return new WaitForSeconds(3);
+                    yield return new WaitForSeconds(2);
                     transform.Translate(Vector3.up * 20);
                 }
 

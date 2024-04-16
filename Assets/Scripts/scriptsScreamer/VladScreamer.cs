@@ -29,7 +29,7 @@ public class VladScreamer : MonoBehaviour
                         transform.Translate(Vector3.down * 5);
 
                         int speed = 2;
-                        transform.Translate(Vector3.back * speed);
+                        transform.Translate(Vector3.forward * speed);
                         yield return new WaitForSeconds((float)0.3);
                         transform.Translate(Vector3.up * 5);
                         yield return new WaitForSeconds((float)0.5);
