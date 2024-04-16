@@ -55,7 +55,7 @@ public class Commforweapon : MonoBehaviour
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 Canvas.gameObject.SetActive(false);
             }

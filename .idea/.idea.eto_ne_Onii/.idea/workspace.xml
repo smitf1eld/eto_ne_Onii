@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c7a5627-9e10-4d7e-902d-8c50726acdf6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eto_ne_Onii/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/door3close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/door3close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/door3open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/door3open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sa1shan scene for button.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sa1shan scene for button.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Commforweapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Commforweapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door/PlayerInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/eea2b0a1abc847af.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/eea2b0a1abc847af.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +153,8 @@
       <workItem from="1713273824103" duration="25000" />
       <workItem from="1713273925540" duration="35000" />
       <workItem from="1713274003033" duration="1247000" />
-      <workItem from="1713283166243" duration="8666000" />
+      <workItem from="1713283166243" duration="9286000" />
+      <workItem from="1713305004903" duration="27000" />
     </task>
     <servers />
   </component>
