@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class chuvirla : MonoBehaviour
 {
-    private bool hasEntered = false;
+    private bool _hasEntered = false;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (!hasEntered)
+            if (!_hasEntered)
             {
 
-                hasEntered = true;
+                _hasEntered = true;
 
             }
             else
