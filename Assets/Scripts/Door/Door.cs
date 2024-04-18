@@ -2,17 +2,19 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Door : MonoBehaviour, IInteractiable
 {
-    public Animator m_Animator;
+    public Animator mAnimator;
     public bool isOpen;
+    //public GameObject doorIsCloseText;
 
     private void Start()
     {
         if (isOpen)
         {
-            m_Animator.SetBool("isOpen", true );
+            mAnimator.SetBool("isOpen", true );
         }
     }
 
@@ -33,11 +35,13 @@ public class Door : MonoBehaviour, IInteractiable
         isOpen = !isOpen;
         if (isOpen)
         {
-            m_Animator.SetBool("IsOpen", true);
+            //doorIsCloseText.SetActive(false);
+            mAnimator.SetBool("IsOpen", true);
         }
         else
         {
-            m_Animator.SetBool("IsOpen", false);
+            //doorIsCloseText.SetActive(true);
+            mAnimator.SetBool("IsOpen", false);
         }
     }
 }
