@@ -14,7 +14,7 @@ public class Door : MonoBehaviour, IInteractiable
     {
         if (isOpen)
         {
-            mAnimator.SetBool("isOpen", true );
+            mAnimator.SetBool("IsOpen", false );
         }
     }
 
@@ -38,10 +38,6 @@ public class Door : MonoBehaviour, IInteractiable
             //doorIsCloseText.SetActive(false);
             mAnimator.SetBool("IsOpen", true);
         }
-        else
-        {
-            //doorIsCloseText.SetActive(true);
-            mAnimator.SetBool("IsOpen", false);
-        }
+       
     }
 }
