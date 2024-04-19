@@ -34,6 +34,7 @@ public class EndGame : MonoBehaviour
         {
             model1.gameObject.SetActive(true);
             model2.gameObject.SetActive(true);
+            
         }
     }
 }
